@@ -1,0 +1,300 @@
+/* 
+Name: Eplainer Atom  Education WebApp
+Description: A Education web landing page application
+Keyword: education,study,learning,tutoring
+Authore: zakir
+Version: 0.0.1v
+*/
+
+/* designing mapping 
+--------------------------
+1. generalstyle
+2.
+*/
+
+/* general styles area
+-----------------------------
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*,
+html {
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #00148B;
+    --body-text-color: #000000;
+    --white-color: #ffffff;
+
+    /* text font */
+    --primary-font: "Rubik", sans-serif;
+
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    font-size: 14px;
+    font-family: var(--primary-font);
+    box-sizing: border-box;
+    background: var(--white-color);
+    color: var(--body-text-color);
+    text-align: right;
+}
+
+button,
+a,
+ul,
+li,
+ol {
+    background: transparent;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 900;
+    line-height: normal;
+    font-family: var(--primary-font);
+}
+
+
+.w-full {
+    width: 100%;
+}
+
+.w-half {
+    width: 50%;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.d-hidden {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.justify-between {
+    justify-content: space-between !important;
+}
+
+.justify-center {
+    justify-content: space-center !important;
+}
+
+.item-center {
+    align-items: center !important;
+}
+
+@media screen and (max-width:1199px) {
+    .w-lg-full {
+        width: 100%;
+    }
+
+    .d-lg-hidden {
+        display: none !important;
+    }
+
+    .d-lg-block {
+        display: block !important;
+    }
+
+    .d-lg-flex {
+        display: flex !important;
+    }
+
+    .justify-lg-between {
+        justify-content: space-between !important;
+    }
+
+    .justify-lg-center {
+        justify-content: space-center !important;
+    }
+
+    .item-lg-center {
+        align-items: center !important;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .w-md-full {
+        width: 100%;
+    }
+
+    .d-md-hidden {
+        display: none !important;
+    }
+
+    .d-md-block {
+        display: block !important;
+    }
+
+    .d-md-flex {
+        display: flex !important;
+    }
+
+    .justify-md-between {
+        justify-content: space-between !important;
+    }
+
+    .justify-md-center {
+        justify-content: space-center !important;
+    }
+
+    .item-md-center {
+        align-items: center !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .w-sm-full {
+        width: 100%;
+    }
+
+    .d-sm-hidden {
+        display: none !important;
+    }
+
+    .d-sm-block {
+        display: block !important;
+    }
+
+    .d-sm-flex {
+        display: flex !important;
+    }
+
+    .justify-sm-between {
+        justify-content: space-between !important;
+    }
+
+    .justify-sm-center {
+        justify-content: space-center !important;
+    }
+
+    .item-sm-center {
+        align-items: center !important;
+    }
+}
+
+.color-text {
+    color: var(--body-title-color);
+}
+
+
+
+@media screen and (max-width:991px) {
+    /* h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: var(--heading-three);
+    }
+
+    h3 {
+        font-size: var(--heading-four);
+    }
+
+    .body-text-one {
+        font-size: var(--body-text-two);
+    }
+
+    .body-text-two {
+        font-size: var(--body-text-foure);
+    } */
+
+}
+
+/* common component parts */
+.secondary-button {
+    border: 2px solid #ffffff;
+}
+
+/* custom container */
+.custom-container {
+    max-width: 1310px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    z-index: 99;
+}
+
+.custom-container-fluid {
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (max-width:991px) {
+
+    .custom-container-fluid,
+    .custom-container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .custom-container-fluid,
+    .custom-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+
+/* main pages style start here 
+ ----
+ */
+
+/* header section style start here
+ -----------------------------------
+  */
+/* banner section style start here
+ -----------------------------------
+  */
+.banner-section {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-section .bg-shap-box svg {
+    width: 100%;
+}

@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, "Rubik", sans-serif, 'Atyp Display',
+      Proxima Nova, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: "Rubik", sans-serif;
+    overflow-x: hidden;
+  }
+
+  button:empty,
+  li:empty,
+  ul:empty,
+  h1:empty,
+  h2:empty,
+  h3:empty,
+  h4:empty,
+  h5:empty,
+  h6:empty {
+    display: none !important;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+  }
+
+  :root {
+    --primary-color: ;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Rubik", sans-serif;
+    color: #F00;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  p {
+    font-family: "Rubik", sans-serif;
+  }
+
+}
+
+@layer components {}

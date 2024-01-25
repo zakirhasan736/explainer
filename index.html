@@ -1,135 +1,272 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+		/>
+		<title>Explainer Landing Page - A Academic Education Webapp</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  <title>Explainer Landing Page - A Academic Education Webapp</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="./assets/css/custom.css" />
+	</head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="./assets/css/custom.css" />
-</head>
+	<body>
+		<!-- =======================header section start here================= -->
+		<header
+			class="header-section absolute top-[58px] md:top-[30px] sm:top-[27px] w-full right-0 bg-transparent"
+		>
+			<div class="custom-container max-w-[1190px]">
+				<div class="header-wrapper">
+					<div
+						class="header-navbar-box flex items-center justify-between gap-[30px] md:gap-5"
+					>
+						<div
+							class="navbar-navbox flex items-center justify-between gap-[34px] md:gap-[25px]"
+						>
+							<div class="navbar-brand-box">
+								<img
+									src="./assets/images/atom-brand-logo-arb-desk.svg"
+									width="133"
+									height="40"
+									alt="company brand image"
+									class="brand-logo-img md:hidden"
+								/>
+								<img
+									src="./assets/images/atom-brand-logo-arb-tablet.svg"
+									width="77"
+									height="21"
+									alt="company brand image"
+									class="brand-logo-img hidden md:block sm:hidden"
+								/>
+								<img
+									src="./assets/images/atom-brand-logo-arb-mobo.svg"
+									width="73"
+									height="21"
+									alt="company brand image"
+									class="brand-logo-img hidden sm:block md:hidden"
+								/>
+							</div>
+							<nav class="navbar-navbox">
+								<ul
+									class="navbar-nav-items flex items-center gap-[32px] md:gap-[18px]"
+								>
+									<li>
+										<a
+											href="/"
+											class="text-[18px] md:text-[10px] sm:text-[16px] text-center text-neu-white font-bold font-primary tracking-[.129px] leading-[32px]"
+											>البرامج</a
+										>
+									</li>
+									<li>
+										<a
+											href="/"
+											class="text-[18px] md:text-[10px] sm:text-[16px] text-center text-neu-white font-bold font-primary tracking-[.129px] leading-[32px]"
+											>الرئيسية</a
+										>
+									</li>
+									<li>
+										<a
+											href="/"
+											class="text-[18px] md:text-[10px] sm:text-[16px] text-center text-neu-white font-bold font-primary tracking-[.129px] leading-[32px]"
+											>عروضنا</a
+										>
+									</li>
+									<li>
+										<a
+											href="/"
+											class="text-[18px] md:text-[10px] sm:text-[16px] text-center text-neu-white font-bold font-primary tracking-[.129px] leading-[32px]"
+											>نقاط البيع</a
+										>
+									</li>
+									<li>
+										<a
+											href="/"
+											class="text-[18px] md:text-[10px] sm:text-[16px] text-center text-neu-white font-bold font-primary tracking-[.129px] leading-[32px]"
+											>المدونة</a
+										>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div
+							class="navbar-auth-box flex items-center gap-[13px]"
+						>
+							<a
+								href="/"
+								class="auth-button secondary-button w-[156px] rounded-full h-[42px] flex items-center justify-center font-primary font-black text-[13px] md:text-[7px] md:w-[85px] md:h-[22px] text-neu-white text-center"
+								>سجل مجانا</a
+							>
+							<a
+								href="/"
+								class="auth-button primary-button w-[156px] rounded-full h-[42px] border-2 border-[#2E47E9] flex items-center justify-center font-primary font-black text-[13px] md:text-[7px] md:w-[85px] md:h-[22px] text-neu-white text-center bg-[#2E47E9]"
+								>تسجيل الدخول</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- =======================header section end here================= -->
+		<main class="page-body-main-wrapper">
+			<!-- =======================banner section start here================= -->
+			<section
+				class="banner-section relative h-[648px] md:h-[373px] sm:h-[601px] pt-[201px] pb-[150px] md:pt-[116px] md:pb-[85px] sm:pt-92px] sm:pb-[87px]"
+			>
+				<div
+					class="bg-shap-box absolute w-full h-full left-0 top-0 text-center mx-auto md:hidden"
+				>
+					<svg
+						width="1440"
+						height="634"
+						viewBox="0 0 1440 634"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<ellipse
+							cx="765.73"
+							cy="-297.67"
+							rx="2040.4"
+							ry="931.15"
+							transform="rotate(-0.455167 765.73 -297.67)"
+							fill="#00148B"
+						/>
+					</svg>
+				</div>
+				<div
+					class="bg-shap-box absolute w-full h-full left-0 top-0 text-center mx-auto hidden sm:hidden md:block"
+				>
+					<svg
+						width="835"
+						height="366"
+						viewBox="0 0 835 366"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<ellipse
+							cx="441.748"
+							cy="-174.662"
+							rx="1183.04"
+							ry="539.888"
+							transform="rotate(-0.455167 441.748 -174.662)"
+							fill="#00148B"
+						/>
+					</svg>
+				</div>
+				<div
+					class="bg-shap-box absolute w-full h-full left-0 top-0 text-center mx-auto hidden sm:block"
+				>
+					<svg
+						width="334"
+						height="602"
+						viewBox="0 0 334 602"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<rect
+							x="-228.855"
+							y="-601.322"
+							width="787.556"
+							height="1202.64"
+							rx="387.592"
+							fill="#00148B"
+						/>
+					</svg>
+				</div>
+				<div class="custom-container">
+					<div
+						class="banner-wrapper-box flex items-center justify-between gap-[30px] sm:block"
+					>
+						<div class="banner-left-cont">
+							<div class="banner-text-cont-box">
+								<h1
+									class="banner-title mb-5 md:mb-4 sm:mb-6 sm:text-center text-[49px] md:text-[28px] sm:text-[29px] text-[#F1BB31] text-right font-black font-primary"
+								>
+									تعليم فعّال ومُمتع
+								</h1>
+								<p
+									class="banner-desc mb-[43px] md:mb-6 sm:mb-6 sm:text-center max-w-[565px] text-right text-[22px] md:text-[13px] sm:text-[11px] text-neu-white font-primary font-medium leading-normal"
+								>
+									تقدّم منصة أتوم لتلاميذ التعليم الأساسي،
+									تعليما فعّالا يجمع بين دسامة المادةالعلمية و
+									التفاعل الممتع من أجل تحقيق النتائج الدراسية
+									المتقدمة و بناء شغف التعلم لدى طفلك.
+								</p>
+								<div
+									class="banner-mobal-mobo hidden sm:block mx-auto sm:mb-[29px]"
+								>
+									<img
+										src="./assets/images/banner-modal-image.png"
+										alt="banner modal image"
+										class="banner-modal-img"
+									/>
+								</div>
+								<div
+									class="banner-button-box flex items-center gap-[17px] sm:justify-center"
+								>
+									<a
+										href="/"
+										class="primary-button text-[18px] md:text-[10px] md:h-[32px] md:w-[120px] sm:text-[10px] sm:h-[32px] sm:w-[133px] text-center text-neu-white font-black font-primary leading-normal flex items-center justify-center border-2 border-[#FF3D3D] h-[56px] w-[207px] bg-[#FF3D3D] rounded-full"
+										>سجل مجانا</a
+									>
+									<a
+										href="/"
+										class="secondary-button text-[18px] md:text-[10px] md:h-[32px] md:w-[120px] sm:text-[10px] sm:h-[32px] sm:w-[133px] text-center text-neu-white font-black font-primary leading-normal flex items-center justify-center border-2 h-[56px] w-[207px] rounded-full"
+										>عروضنا</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="banner-right-cont">
+							<img
+								src="./assets/images/banner-modal-image.png"
+								alt="banner modal image"
+								class="banner-modal-img"
+							/>
+						</div>
+					</div>
+					<div
+						class="home-indicator mx-auto absolute left-0 right-0 w-[21px] bottom-[-50px]"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="23"
+							height="12"
+							viewBox="0 0 23 12"
+							fill="none"
+						>
+							<path
+								d="M0.940985 1.2972L2.21169 0.0264893L11.5605 9.37526L20.9092 0.0264893L22.1799 1.2972L11.5605 11.9167L0.940985 1.2972Z"
+								fill="white"
+							/>
+						</svg>
+					</div>
+				</div>
+			</section>
+			<!-- =======================banner section end here================= -->
 
-<body>
-  <!-- =======================header section start here================= -->
-  <header class="header-section absolute top-[58px] md:top-[30px] sm:top-[27px] w-full right-0 bg-transparent">
-    <div class="custom-container max-w-[1190px]">
-      <div class="header-wrapper">
-        <div class="header-navbar-box flex items-center justify-between gap-[30px] md:gap-5">
-          <div class="navbar-navbox flex items-center justify-between gap-[34px] md:gap-[25px]">
-            <div class="navbar-brand-box">
-              <img src="./assets/images/atom-brand-logo-arb-desk.svg" width="133" height="40" alt="company brand image"
-                class="brand-logo-img md:hidden">
-              <img src="./assets/images/atom-brand-logo-arb-tablet.svg" width="77" height="21" alt="company brand image"
-                class="brand-logo-img hidden md:block sm:hidden">
-              <img src="./assets/images/atom-brand-logo-arb-mobo.svg" width="73" height="21" alt="company brand image"
-                class="brand-logo-img hidden sm:block md:hidden">
-            </div>
-            <nav class="navbar-navbox">
-              <ul class="navbar-nav-items  flex items-center gap-[32px] md:gap-[18px]">
-                <li><a href="/"
-                    class="text-[18px] md:text-[10px] sm:text-[16px] text-center text-neu-white font-bold font-primary tracking-[.129px] leading-[32px]">البرامج</a>
-                </li>
-                <li><a href="/"
-                    class="text-[18px] md:text-[10px] sm:text-[16px] text-center text-neu-white font-bold font-primary tracking-[.129px] leading-[32px]">الرئيسية</a>
-                </li>
-                <li><a href="/"
-                    class="text-[18px] md:text-[10px] sm:text-[16px] text-center text-neu-white font-bold font-primary tracking-[.129px] leading-[32px]">عروضنا</a>
-                </li>
-                <li><a href="/"
-                    class="text-[18px] md:text-[10px] sm:text-[16px] text-center text-neu-white font-bold font-primary tracking-[.129px] leading-[32px]">نقاط
-                    البيع</a></li>
-                <li><a href="/"
-                    class="text-[18px] md:text-[10px] sm:text-[16px] text-center text-neu-white font-bold font-primary tracking-[.129px] leading-[32px]">المدونة</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="navbar-auth-box flex items-center gap-[13px]">
-            <a href="/"
-              class="auth-button secondary-button w-[156px] rounded-full h-[42px] flex items-center justify-center font-primary font-black text-[13px] md:text-[7px] md:w-[85px]  md:h-[22px] text-neu-white text-center ">سجل
-              مجانا</a>
-            <a href="/"
-              class="auth-button primary-button w-[156px] rounded-full h-[42px] border-2 border-[#2E47E9] flex items-center justify-center font-primary font-black text-[13px] md:text-[7px] md:w-[85px]  md:h-[22px] text-neu-white text-center bg-[#2E47E9]">تسجيل
-              الدخول</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- =======================header section end here================= -->
-  <main class="page-body-main-wrapper">
-    <!-- =======================banner section start here================= -->
-    <section class="banner-section relative h-[648px] md:h-[373px] sm:h-[601px] pt-[201px] pb-[150px] md:pt-[116px] md:pb-[85px]  sm:pt-92px] sm:pb-[87px]">
-      <div class="bg-shap-box absolute w-full h-full left-0 top-0 text-center mx-auto md:hidden">
-        <svg width="1440" height="634" viewBox="0 0 1440 634" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="765.73" cy="-297.67" rx="2040.4" ry="931.15" transform="rotate(-0.455167 765.73 -297.67)"
-            fill="#00148B" />
-        </svg>
-      </div>
-      <div class="bg-shap-box absolute w-full h-full left-0 top-0 text-center mx-auto hidden sm:hidden md:block">
-        <svg width="835" height="366" viewBox="0 0 835 366" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="441.748" cy="-174.662" rx="1183.04" ry="539.888" transform="rotate(-0.455167 441.748 -174.662)"
-            fill="#00148B" />
-        </svg>
-      </div>
-      <div class="bg-shap-box absolute w-full h-full left-0 top-0 text-center mx-auto hidden sm:block">
-      <svg width="334" height="602" viewBox="0 0 334 602" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="-228.855" y="-601.322" width="787.556" height="1202.64" rx="387.592" fill="#00148B" />
-      </svg>
+			<!-- second section starts here  -->
+			<section>
+				<div></div>
+			</section>
+			<!-- second section ends here  -->
+		</main>
 
-      </div>
-      <div class="custom-container">
-        <div class="banner-wrapper-box flex items-center justify-between gap-[30px] sm:block">
-          <div class="banner-left-cont">
-            <div class="banner-text-cont-box">
-              <h1 class="banner-title mb-5 md:mb-4 sm:mb-6 sm:text-center text-[49px] md:text-[28px] sm:text-[29px] text-[#F1BB31] text-right font-black font-primary">تعليم فعّال
-                ومُمتع</h1>
-              <p
-                class="banner-desc mb-[43px] md:mb-6 sm:mb-6 sm:text-center max-w-[565px] text-right text-[22px] md:text-[13px] sm:text-[11px] text-neu-white font-primary font-medium leading-normal">
-                تقدّم منصة أتوم لتلاميذ التعليم الأساسي، تعليما فعّالا يجمع بين دسامة المادةالعلمية و التفاعل الممتع من
-                أجل تحقيق النتائج الدراسية المتقدمة و بناء شغف
-                التعلم لدى طفلك.</p>
-                <div class="banner-mobal-mobo hidden sm:block mx-auto sm:mb-[29px]">
-                  <img src="./assets/images/banner-modal-image.png" alt="banner modal image" class="banner-modal-img">
-                </div>
-              <div class="banner-button-box flex items-center gap-[17px] sm:justify-center">
-                <a href="/"
-                  class="primary-button text-[18px] md:text-[10px] md:h-[32px] md:w-[120px] sm:text-[10px] sm:h-[32px] sm:w-[133px] text-center text-neu-white font-black font-primary leading-normal flex items-center justify-center border-2 border-[#FF3D3D]  h-[56px] w-[207px] bg-[#FF3D3D] rounded-full">سجل
-                  مجانا</a>
-                <a href="/"
-                  class="secondary-button text-[18px] md:text-[10px] md:h-[32px] md:w-[120px] sm:text-[10px] sm:h-[32px] sm:w-[133px] text-center text-neu-white font-black font-primary leading-normal flex items-center justify-center border-2 h-[56px] w-[207px] rounded-full">عروضنا</a>
-              </div>
-            </div>
-          </div>
-          <div class="banner-right-cont">
-            <img src="./assets/images/banner-modal-image.png" alt="banner modal image" class="banner-modal-img">
-          </div>
-        </div>
-        <div class="home-indicator mx-auto absolute left-0 right-0 w-[21px] bottom-[-50px]">
-          <svg xmlns="http://www.w3.org/2000/svg" width="23" height="12" viewBox="0 0 23 12" fill="none">
-            <path
-              d="M0.940985 1.2972L2.21169 0.0264893L11.5605 9.37526L20.9092 0.0264893L22.1799 1.2972L11.5605 11.9167L0.940985 1.2972Z"
-              fill="white" />
-          </svg>
-        </div>
-      </div>
-    </section>
-    <!-- =======================banner section end here================= -->
+		<!-- =======================footer section start here================= -->
 
-
-  </main>
-
-  <!-- =======================footer section start here================= -->
-
-  <!-- =======================footer section end here================= -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <!-- <script src="./assets/js/index.js"></script> -->
-</body>
-
+		<!-- =======================footer section end here================= -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<!-- <script src="./assets/js/index.js"></script> -->
+	</body>
 </html>

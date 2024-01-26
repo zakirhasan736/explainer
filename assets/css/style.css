@@ -671,6 +671,16 @@ p {
   margin-bottom: 4rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -979,6 +989,10 @@ p {
   width: 330px;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .max-w-\[1190px\] {
   max-width: 1190px;
 }
@@ -1001,6 +1015,58 @@ p {
 
 .max-w-\[400px\] {
   max-width: 400px;
+}
+
+.max-w-\[145px\] {
+  max-width: 145px;
+}
+
+.max-w-\[155px\] {
+  max-width: 155px;
+}
+
+.max-w-\[140px\] {
+  max-width: 140px;
+}
+
+.max-w-\[170px\] {
+  max-width: 170px;
+}
+
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
+}
+
+.max-w-\[750px\] {
+  max-width: 750px;
+}
+
+.max-w-\[950px\] {
+  max-width: 950px;
+}
+
+.max-w-\[1100px\] {
+  max-width: 1100px;
+}
+
+.max-w-\[1150px\] {
+  max-width: 1150px;
+}
+
+.max-w-\[1050px\] {
+  max-width: 1050px;
+}
+
+.max-w-\[900px\] {
+  max-width: 900px;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
 }
 
 .transform {
@@ -1185,6 +1251,10 @@ p {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#L\] {
+  background-color: #L;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -1223,6 +1293,10 @@ p {
 
 .p-0 {
   padding: 0px;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-5 {
@@ -1340,6 +1414,16 @@ p {
   padding-bottom: 2rem;
 }
 
+.px-\[150px\] {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.px-40 {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
 .pb-\[150px\] {
   padding-bottom: 150px;
 }
@@ -1398,6 +1482,10 @@ p {
 
 .pl-60 {
   padding-left: 15rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -1504,6 +1592,18 @@ p {
   font-size: 50px;
 }
 
+.text-\[17\.56px\] {
+  font-size: 17.56px;
+}
+
+.text-\[17\.55px\] {
+  font-size: 17.55px;
+}
+
+.text-\[14\.42px\] {
+  font-size: 14.42px;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -1538,6 +1638,14 @@ p {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-snug {
+  line-height: 1.375;
+}
+
+.leading-tight {
+  line-height: 1.25;
 }
 
 .tracking-\[\.129px\] {
@@ -1761,6 +1869,10 @@ p {
 
   .md\:w-\[33px\] {
     width: 33px;
+  }
+
+  .md\:w-\[442\.82px\] {
+    width: 442.82px;
   }
 
   .md\:flex-row-reverse {
